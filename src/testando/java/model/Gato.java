@@ -1,15 +1,16 @@
 package testando.java.model;
 
-public class Gato {
+import java.util.Objects;
 
+public class Gato {
+	
 	private String nome;
 	private String cor;
-	private Interger idade;
+	private Integer idade;
+	
+	public Gato() {	}
 
-	public Gato() {
-	}
-
-	public Gato(String nome, String cor, Interger idade) {
+	public Gato(String nome, String cor, Integer idade) {
 		super();
 		this.nome = nome;
 		this.cor = cor;
@@ -32,17 +33,48 @@ public class Gato {
 		this.cor = cor;
 	}
 
-	public Interger getIdade() {
+	public Integer getIdade() {
 		return idade;
 	}
 
-	public void setIdade(Interger idade) {
+	public void setIdade(Integer idade) {
 		this.idade = idade;
 	}
 
-	/*
-	 * public Gato(String nome, String cor, Integer idade) { this.nome= nome;
-	 * this.cor= cor; this.idade= idade; }
-	 */
+	@Override
+	public int hashCode() {
+		return Objects.hash(cor, idade, nome);
+	}
 
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Gato other = (Gato) obj;
+		return Objects.equals(cor, other.cor) && Objects.equals(idade, other.idade) && Objects.equals(nome, other.nome);
+	}
+
+	@Override
+	public String toString() {
+		return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]";
+	}
+	
+	
+	
+	/*public Gato(String nome, String cor, Integer idade) {
+		this.nome = nome;
+		this.cor = cor;
+		this.idade = idade;
+		
+	}*/
+
+
+	
+	
 }
+
+
