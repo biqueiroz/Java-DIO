@@ -1,6 +1,7 @@
->> Variáveis, tipos de dados e operadores em Java
+MÓDULO: **Variáveis, tipos de dados e operadores em Java
 
-Dados: são os valores e operações que as variáveis podem assumir e sofrer, respectivamente.
+>> Tipo de Dados: 
+São os valores e operações que as variáveis podem assumir e sofrer, respectivamente.
 
 Tipificação:
 - Estática (forte - obriga você a definir no momento da criação) vs Dinâmica (fraco)
@@ -13,7 +14,6 @@ Tipificação:
 
 
 >> Operadores aritméticos
-
 São símbolos especiais que são capazes de realizar ações específicas em um, dois ou mais operandos e, em seguida, retornar um resultado.
 
 Tipos:
@@ -25,7 +25,6 @@ Tipos:
 
 
 >> Conversões (casting)
-
 É a transformação de uma determinada variável de tipo menos específico para um tipo mais especíico ou vice-versa.
 
 Tipo:
