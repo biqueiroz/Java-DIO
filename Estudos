@@ -1,0 +1,9 @@
+>> Variáveis, tipos de dados e operadores em Java
+
+Dados: são os valores e operações que as variáveis podem assumir e sofrer, respectivamente.
+
+Tipificação:
+- Estática (forte - obriga você a definir no momento da criação) vs Dinâmica (fraco);
+- Primitivo (atômicos e homogêneos) vs Composto (ligado a orientação à objetvo).
+---------->>> Opções de tipos: Textual, Numeral, Lógico, Objeto.
+
