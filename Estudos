@@ -3,7 +3,31 @@
 Dados: são os valores e operações que as variáveis podem assumir e sofrer, respectivamente.
 
 Tipificação:
-- Estática (forte - obriga você a definir no momento da criação) vs Dinâmica (fraco);
-- Primitivo (atômicos e homogêneos) vs Composto (ligado a orientação à objetvo).
+- Estática (forte - obriga você a definir no momento da criação) vs Dinâmica (fraco)
+- Primitivo (atômicos e homogêneos) vs Composto (ligado a orientação à objetvo)
 ---------->>> Opções de tipos: Textual, Numeral, Lógico, Objeto.
 
+*Boas práticas:
+- Usar de forma adequada cada tipo de dado para cada informação;
+
+
+
+>> Operadores aritméticos
+
+São símbolos especiais que são capazes de realizar ações específicas em um, dois ou mais operandos e, em seguida, retornar um resultado.
+
+Tipos:
+- Pós-fixado: exp++ ou exp-- (primeiro atribui o valor, depois faz a operação: "int j = k--", ou seja, "j = k; k = k - 1")
+- Prefixado: ++exp ou --exp
+- Aritmético: +, -, *, / e %
+- Atribuição: =, +=, -=, *=, /= e %=
+
+
+
+>> Conversões (casting)
+
+É a transformação de uma determinada variável de tipo menos específico para um tipo mais especíico ou vice-versa.
+
+Tipo:
+- Upcast (implícito)
+- Downcast (explícito - preciso dizer exatamente qual tipo quero usar)
