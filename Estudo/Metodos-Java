@@ -1,0 +1,52 @@
+**Entendendo Métodos Java
+
+O que é um método?
+- É uma porção de código (sub-rotina) que é disponibilizada por uma classe. 
+  Este é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.
+
+
+>> Padrão de definição para criação de método:
+<?visibilidade><?tipo?><?modificador?> retorno nome (<?parâmetros?) <?exceções?> corpo
+---- o que está com ? é opcional
+
+O método pode ser:
+- VISIBILIDADE: Public, protected ou private;
+- TIPO: Concreto ou abstrato;
+- MODIFICADOR: Static ou Final;
+- RETORNO: Tipo de dado ou "void" (vazio);
+- NOME: Nome que é fornecido ao método;
+- PARÂMETROS: Parâmetros que pode receber;
+- EXCEÇÕES: Exceções que pode lançar;
+- CORPO: Código que possui ou vazio.
+
+
+>> Forma mais utilizada para métodos:
+            public static R N (P) {...}
+
+
+>> Utilização:
+Passa-se uma mensagem através de uma classe ou objeto.
+
+Exemplo: nome_da_classe.nome_do_metodo(); ou nome_da_classe.nome_do_metodo(...);
+         nome_do_objeto.nome_do_metodo(); ou nome_do_objeto.nome_do_metodo(...);
+
+
+(em Java uma classe tem sempre a primeira letra em maiúsculo, e o objeto sempre em minúsculo)
+
+
+>> Particularidades do método:
+
+- Assinatura: é a forma de identificar unicamente o método;
+- Construtor e Destrutor: são métodos especiais usados na POO (Programação Orientada a Objetos);
+- Mensagem: é o ato de solicitar ao método que o mesmo execute. Esta pode ser direcionada a um objeto ou a uma classe;
+- Passagem de parâmetros: Por valor (cópia) ou Por referência (endereço);
+
+
+
+>> Boas práticas na definição de métodos:
+
+- Nomes devem ser descritivos, mas curtos;
+- Notação camelo;
+- Deve possuir entre 80 e 120 linhas;
+- Evite lista de parâmetros longas;
+- Visibilidades adequadas;
