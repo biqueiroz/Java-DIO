@@ -1,0 +1,15 @@
+>> Operadores Relacionais
+São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado.
+
+Simularidade: igual (==), diferente (!=);
+Tamanho: maior, maior igual, menor, menor igual;
+
+>> Operadores Lógicos:
+São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógicos ou expressões e, em seguida, retornar um resultado.
+
+Tipos:
+- Conjunção - operação lógica que só é verdadeira quando ambos os operadores ou expressões envolvidos são verdade (&&);
+- Disjunção - operação que só é falsa quando ambos os operadores ou expressões envolvidas são falsas (||);
+- Disjunção exclusiva - operação que só é verdade quando ambos os operandos ou expressões são opostos (^);
+- Negação - operação que inverte o valor lógico de um operando ou expressão (!).
+
