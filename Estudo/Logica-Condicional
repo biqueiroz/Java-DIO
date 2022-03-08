@@ -4,6 +4,7 @@ São símbolos especiais quais são capazes de realizar comparações entre dete
 Simularidade: igual (==), diferente (!=);
 Tamanho: maior, maior igual, menor, menor igual;
 
+
 >> Operadores Lógicos:
 São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógicos ou expressões e, em seguida, retornar um resultado.
 
@@ -12,4 +13,42 @@ Tipos:
 - Disjunção - operação que só é falsa quando ambos os operadores ou expressões envolvidas são falsas (||);
 - Disjunção exclusiva - operação que só é verdade quando ambos os operandos ou expressões são opostos (^);
 - Negação - operação que inverte o valor lógico de um operando ou expressão (!).
+
+
+>> Controle de fluxo
+São estruturas que tem a capacidade de direcionar o fluxo de execução do código.
+
+Tipos:
+- Decisão: if, if-else, if-else-if, switch e operador ternário;
+- Repetição: for, while, do while;
+- Interrupção: break, continue e return.
+
+DECISÃO: estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução.
+
+-- Operador ternário: condição ? true : false; (evitar a utilização por boas práticas)
+
+-- Switch (exemplo): 
+switch (vairável) {
+case 1: 
+break;
+case ... :
+break;
+case ... :
+break;
+default;
+break;
+}
+
+-->> Usar switch para casos de 1 só variável;
+
+
+>> Blocos 
+É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação.
+
+Tipos: 
+- Locais: dentro de métodos;
+- Estáticos: dentro de classes;
+- Instância: dentro de classes.
+
+
 
