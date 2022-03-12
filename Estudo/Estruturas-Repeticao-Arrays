@@ -38,3 +38,5 @@ Dividir o valor da variável por k, use o atalho /=k.
 - Permanecem com o mesmo tamanho depois de criados (ao criar, preciso informar quantos elementos vai possuir).
 - Pode ser um array unidimensional ou multidimensional.
 - As posições dentro do array começam sempre em 0 (0, 1, 2, 3...).
+
+Referência: https://github.com/cami-la/loops-e-arrays
