@@ -31,3 +31,26 @@ while (tentativas <= limiteTentativas) {
     //Atualiza a quantidade de tentativas
 }
 
+
+>> Interruptores
+São comandos que têm a capacidade de moficiar o fluxo de execução de loops ou métodos.
+
+Tipos:
+- Break;
+- Continue;
+- Return.
+
+--> Break:
+Interrompe a execução do for, while ou switch;
+Opções de uso: não marcada (unlabeled) e marcada (labeled - pode parar dois laços de uma vez "break out").
+
+--> Continue:
+Interrompe parcialmente a execução do for, while;
+Opções de uso: não marcada (unlabeled) e marcada (labeled).
+
+--> Return:
+Interrompe a execução de método;
+Opções de uso: com valor e sem valor.
+
+
+
