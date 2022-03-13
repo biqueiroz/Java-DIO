@@ -1,0 +1,33 @@
+Conceito de Laços em Java
+
+>> Loops
+São estruturas que têm a capacidade repetir a execução de um fluxo do código.
+
+Tipos:
+- For: conjuntos finitos;
+- While: condição permite.
+
+--> Estrutura básica do for:
+      for (início; fim; incremento) {
+          //códigos
+      }
+      
+      - início = expressão que indica o ponto de início;
+      - fim = expressão que indica quando parar;
+      - incremento = expressão faz o "for caminhar".
+EXEMPLO:
+for (int i = 0; i < 10; i++) {
+System.out.println("O valor de i é " + i);
+}
+
+--> Estrutura básica do while:
+      while (expressão) {
+          //códigos
+      }
+      
+EXEMPLO:
+while (tentativas <= limiteTentativas) {
+    //Faz a pergunta do quizz
+    //Atualiza a quantidade de tentativas
+}
+
