@@ -53,4 +53,23 @@ Interrompe a execução de método;
 Opções de uso: com valor e sem valor.
 
 
+>> Arrays
+É um tipo de dado especial, onde um conjunto de valores podem ser armazanados (também chamado de vetor).
 
+Características: 
+- Sequencial;
+- Finito e fixo;
+- Homogêneo;
+- Indexado.
+
+--> Os índices de um array começam na posição 0.
+
+Terminologia:
+- Elemento (o que está no array);
+- Tamanho (a quantidade de elementos que ele possui);
+- Índice (a contagem dos elementos, começando em 0).
+
+EXEMPLO:
+<tipo>[] nome <?=valorInicial?>; //Mais comum;
+ou
+<tipo> nome[] <?=valorInicial?>;
