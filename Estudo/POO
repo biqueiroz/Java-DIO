@@ -18,7 +18,9 @@ EXEMPLO: Validação de CPF e CNPJ.
 
 -->> Conceitos básicos da POO:
 * Classe e objeto
-* Associação de classes
+* Associação de classes - utilizando uma classe dentro de outra classe;
 * Herança
 * Encapsulamento
 * Polimorfismo
+
+
