@@ -1,0 +1,24 @@
+Programação orientado a objetos com Java
+
+>> Diferenças entre programação estruturada e POO
+Programação estruturada: 
+- É linear e estruturada como o prõrpio nome diz, ou seja, as tomadas de decisões são feitas de forma ordenada, 
+por meio de verificações condicionais e interações,utilizando como recursos variáveis e rotinas para o desenvolvimento dos programas.
+- Quando utilizada para programas complexos, a organização do código torna-se um desafio, justamente pela estrutura do mesmo não oferecer 
+uma forma simples para agrupar os dados e protegê-los.
+
+POO:
+- Chamamos de objetos a representação programática de algo, como por exemplo um carro, onde temos atribuos e ações tomadas que podem ser tomadas ou executadas por ele.
+
+-->> Como identificar uma função utilitária:
+* Ela consegue se resolver por ela mesma, sem dependências externas?
+* Os parâmetros de entrada são simples e diretos?
+* O resultado de saída também é simples e direto?
+EXEMPLO: Validação de CPF e CNPJ.
+
+-->> Conceitos básicos da POO:
+* Classe e objeto
+* Associação de classes
+* Herança
+* Encapsulamento
+* Polimorfismo
