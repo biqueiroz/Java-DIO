@@ -1,0 +1,17 @@
+Introdução a APIs e métodos HTTP
+
+>> O que é API?
+- Application Program Interface;
+- Pense em API como a camada que esconde as regras e possibilita uma comunicação externa;
+- Facilita a integração;
+- Existem várias metodologias (arquiteturas), como SOA, Rest, SDK...
+
+>> Diferença: Rest (metodologia) e Restful (API que usa Rest)
+
+>> HTTP métodos:
+Get: Sempre obtém os dados;
+Post: Cria um novo registro ou Recurso;
+Put: Atualiza um registro existente;
+Delete: Remove um registro existente.
+
+
